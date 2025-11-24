@@ -8,7 +8,7 @@ class PromptPage(ttk.Frame):
     }
 
     def __init__(self, parent, controller):
-        super().__init__(parent)    
+        super().__init__(parent)        
 
         cur_name = controller.username
         current_rounds = controller.current_rounds
